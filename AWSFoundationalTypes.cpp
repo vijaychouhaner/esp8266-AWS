@@ -333,3 +333,4 @@ MinimalString jsonSerializeInt(int i) {
     snprintf(buffer, INT_STR_LEN, "%d", i);
     return MinimalString(buffer);
 }
+
